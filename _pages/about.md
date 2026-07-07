@@ -27,3 +27,4 @@ You can reach me at [xzhao24@nd.edu](mailto:xzhao24@nd.edu) or connect with me o
 - Accepted paper: *SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Fuzzy Token Matching* (IJCNLP 2025)
 - Graduate Research Assistant, University of Notre Dame
 - Program committee member for ICDM 2025 Demo Track and reviewer for HPDC 2025
+- Served as a software mentor at StarkHacks on the Purdue University campus

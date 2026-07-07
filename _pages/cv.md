@@ -83,5 +83,6 @@ Academic Service
 
 Leadership & Service
 ======
+* Software Mentor, StarkHacks, Purdue University campus
 * VP of Membership, Techmasters, Georgia Tech Toastmasters
 * Volunteer, Georgia Aquarium
