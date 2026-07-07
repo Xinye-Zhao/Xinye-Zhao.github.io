@@ -23,7 +23,7 @@ repository               : "Xinye-Zhao/Xinye-Zhao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.JPG"
+  avatar           : "profile.jpg"
   name             : "Xinye Zhao"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student in Computer Science and Engineering at the University of Notre Dame, working on software engineering security, LLM systems, and AI-assisted vulnerability detection."
