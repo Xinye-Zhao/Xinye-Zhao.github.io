@@ -14,6 +14,11 @@
     },
     "profiles": [
       {
+        "network": "Google Scholar",
+        "username": "-fbdVNUAAAAJ",
+        "url": "https://scholar.google.com/citations?user=-fbdVNUAAAAJ&hl=en"
+      },
+      {
         "network": "GitHub",
         "username": "Xinye-Zhao",
         "url": "https://github.com/Xinye-Zhao"
@@ -164,11 +169,18 @@
       "summary": "Disentangled learning framework for integrating and predicting multi-batch, multi-condition single-cell RNA-sequencing data."
     },
     {
-      "name": "SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Fuzzy Token Matching",
-      "publisher": "IJCNLP 2025",
-      "releaseDate": "2025-01-01",
-      "website": "",
-      "summary": "Accepted conference paper on efficient KVCache sharing for semantically similar prompts."
+      "name": "SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Token-Level LSH Matching",
+      "publisher": "arXiv / IJCNLP 2025",
+      "releaseDate": "2025-09-29",
+      "website": "https://arxiv.org/abs/2509.24832",
+      "summary": "Semantic-aware KV cache sharing framework for efficient LLM inference with token-level LSH matching."
+    },
+    {
+      "name": "Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub",
+      "publisher": "arXiv",
+      "releaseDate": "2026-01-01",
+      "website": "https://arxiv.org/abs/2601.00477",
+      "summary": "Empirical study of security-related agentic pull requests on GitHub."
     }
   ],
   "presentations": [],

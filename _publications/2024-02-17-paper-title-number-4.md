@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 4"
+title: "Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-published: false
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://Xinye-Zhao.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/ai-teammates-agentic-prs
+excerpt: 'An empirical study of security-related agentic pull requests on GitHub.'
+date: 2026-01-01
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2601.00477'
+citation: 'Mohammed Latif Siddiq, Xinye Zhao, Vinicius Carvalho Lopes, Beatrice Casey, Joanna C. S. Santos. (2026). &quot;Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub.&quot; <i>arXiv</i>.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Empirical study of autonomous coding agents' security-related pull requests, their review outcomes, and human scrutiny patterns on GitHub.
