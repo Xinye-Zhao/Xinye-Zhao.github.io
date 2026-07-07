@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 3"
+title: "SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Fuzzy Token Matching"
 collection: publications
-category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://Xinye-Zhao.github.io/files/slides3.pdf'
-paperurl: 'https://Xinye-Zhao.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+category: conferences
+permalink: /publication/semsharekv
+excerpt: 'Efficient KVCache sharing for semantically similar prompts via fuzzy token matching.'
+date: 2025-01-01
+venue: 'IJCNLP 2025'
+citation: 'Xinye Zhao and Spyridon Mastorakis. (2025). &quot;SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Fuzzy Token Matching.&quot; <i>IJCNLP 2025</i>.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Accepted conference paper on reducing LLM inference cost through KVCache sharing for semantically similar prompts.

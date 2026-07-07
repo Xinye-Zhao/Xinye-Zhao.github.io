@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Computer Networks (CSE 30264)"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Teaching Assistant"
+permalink: /teaching/computer-networks-cse-30264
+venue: "University of Notre Dame"
+date: 2025-01-01
+location: "South Bend, IN, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Teaching Assistant for Computer Networks (CSE 30264) at the University of Notre Dame in Spring 2025.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+This course focused on foundational networking concepts and systems-level understanding of communication protocols.

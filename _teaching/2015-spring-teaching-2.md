@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 2"
+title: "Systems Programming (CSE 20289)"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Teaching Assistant"
+permalink: /teaching/systems-programming-cse-20289
+venue: "University of Notre Dame"
+date: 2025-08-01
+location: "South Bend, IN, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Teaching Assistant for Systems Programming (CSE 20289) at the University of Notre Dame in Fall 2025.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+This course covered systems programming concepts and low-level software development practices.

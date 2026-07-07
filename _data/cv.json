@@ -1,152 +1,207 @@
 {
   "basics": {
     "name": "Xinye Zhao",
-    "email": "",
-    "phone": "",
+    "email": "xzhao24@nd.edu",
+    "phone": "(470) 437-9129",
     "website": "https://Xinye-Zhao.github.io",
-    "summary": "Welcome to my academic website.",
+    "summary": "Ph.D. student in Computer Science and Engineering at the University of Notre Dame, working on software engineering security, LLM systems, and AI-assisted vulnerability detection.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
+      "city": "South Bend",
       "countryCode": "US",
-      "region": ""
+      "region": "IN"
     },
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": ""
-      },
       {
         "network": "GitHub",
         "username": "Xinye-Zhao",
         "url": "https://github.com/Xinye-Zhao"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "xinye-zhao",
+        "url": "https://linkedin.com/in/xinye-zhao"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "University of Notre Dame",
+      "position": "Graduate Research Assistant, Computer Science and Engineering",
+      "location": "South Bend, IN",
+      "startDate": "2025-09",
+      "endDate": "",
+      "summary": "Research on efficient LLM inference and AI-assisted vulnerability detection.",
+      "highlights": [
+        "Designed a KVCache sharing framework for semantically similar prompts to minimize recomputation.",
+        "Developing a multi-agent system that simulates human hacker behavior to detect vulnerabilities in C/C++."
+      ]
+    },
+    {
+      "name": "University of Notre Dame",
+      "position": "Graduate Research Assistant, Computer Science and Engineering",
+      "location": "South Bend, IN",
+      "startDate": "2024-08",
+      "endDate": "2025-09",
+      "summary": "Research on efficient LLM inference.",
+      "highlights": [
+        "Designed a KVCache sharing framework for semantically similar prompts to minimize recomputation.",
+        "Integrated RoPE into vector embeddings to preserve positional information during fuzzy token matching.",
+        "Achieved a 6.25x speedup and a 42% reduction in memory usage during LLM inference."
+      ]
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Research Assistant, Electrical and Computer Engineering",
+      "location": "Atlanta, GA",
+      "startDate": "2023-09",
+      "endDate": "2024-08",
+      "summary": "Research on IoT smart-speaker traffic and eavesdropping behavior.",
+      "highlights": [
+        "Studied smart-speaker network behavior with a focus on eavesdropping and targeted advertising.",
+        "Built an automatic testing system with tablets and smart speakers to analyze behavior.",
+        "Leveraged FFT-based temporal features to analyze traffic from pcap files."
+      ]
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Research Assistant, Computer Science",
+      "location": "Atlanta, GA",
+      "startDate": "2022-06",
+      "endDate": "2024-06",
+      "summary": "Research on machine learning for single-cell sequencing data.",
+      "highlights": [
+        "Contributed to scDisInFact for batch effect removal, key gene detection, and perturbation prediction.",
+        "Used multiple encoders to disentangle shared and unshared biological factors."
+      ]
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Research Assistant, Biomedical Engineering",
+      "location": "Atlanta, GA",
+      "startDate": "2022-06",
+      "endDate": "2023-06",
+      "summary": "Research on doublet detection in scRNA-seq data.",
+      "highlights": [
+        "Developed scMODD for doublet detection in scRNA-seq data.",
+        "Modeled gene expression with Negative Binomial and Zero-Inflated Negative Binomial distributions."
+      ]
+    },
+    {
+      "name": "Bytedance",
+      "position": "Frontend Engineer, Lark Document",
+      "location": "Shenzhen, China",
+      "startDate": "2020-12",
+      "endDate": "2021-06",
+      "summary": "Frontend engineering for Lark Document.",
+      "highlights": [
+        "Developed the Popover Toolbar for Lark Documentation's Table component.",
+        "Implemented end-to-end tests using Mocha, Puppeteer, and Chai.",
+        "Designed UI styles and buttons with Styled-Components."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "University of Notre Dame",
+      "area": "Computer Science and Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2024-08",
+      "endDate": "2029-05",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
+      "institution": "Georgia Institute of Technology",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "M.S.",
+      "startDate": "2021-08",
+      "endDate": "2024-07",
+      "gpa": "4.0",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Dalian Maritime University",
+      "area": "Electrical Engineering",
+      "studyType": "B.E.",
+      "startDate": "2016-09",
+      "endDate": "2020-07",
+      "gpa": "3.95",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "JavaScript", "Assembly", "C++"]
+    },
+    {
+      "name": "Libraries and Tools",
+      "keywords": ["PyTorch", "Wireshark", "IDA Pro", "React", "Pandas", "OpenCV", "Docker"]
+    },
+    {
+      "name": "ML Architectures",
+      "keywords": ["LLM", "SSD", "Transformers"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://Xinye-Zhao.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "scMODD: A model-driven algorithm for doublet identification in single-cell RNA-sequencing data",
+      "publisher": "Frontiers in Systems Biology",
+      "releaseDate": "2023-01-01",
+      "website": "",
+      "summary": "Model-driven framework for doublet identification in single-cell RNA-sequencing data."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://Xinye-Zhao.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "scDisInFact: Disentangled Learning for the Integration and Prediction of Multi-Batch, Multi-Condition Single-Cell RNA-Sequencing Data",
+      "publisher": "Nature Communications",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": "Disentangled learning framework for integrating and predicting multi-batch, multi-condition single-cell RNA-sequencing data."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://Xinye-Zhao.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://Xinye-Zhao.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Fuzzy Token Matching",
+      "publisher": "IJCNLP 2025",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Accepted conference paper on efficient KVCache sharing for semantically similar prompts."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Computer Networks (CSE 30264)",
+      "institution": "University of Notre Dame",
+      "date": "2025-01-01",
+      "role": "Teaching Assistant",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Systems Programming (CSE 20289)",
+      "institution": "University of Notre Dame",
+      "date": "2025-08-01",
+      "role": "Teaching Assistant",
       "description": ""
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "Raman Spectra Signal Automatic Detection",
       "category": "portfolio",
-      "date": "",
+      "date": "2022-11-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Developed a method to denoise and detect Raman spectra signals using a modified SSD model with a double-headed network and non-local block."
+    },
+    {
+      "name": "C++ Based 3D Pacman Game",
+      "category": "portfolio",
+      "date": "2021-09-01",
+      "url": "",
+      "description": "Built a 3D Pacman game with OpenCV, DFS-based maze logic, ghost tracking, multithreading, and lighting effects."
     }
   ]
 }

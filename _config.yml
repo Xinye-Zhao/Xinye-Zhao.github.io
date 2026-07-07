@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Xinye Zhao's Academic Portfolio" # Update this with the title of your site
+title                    : "Xinye Zhao"
 title_separator          : "-"
 name                     : &name "Xinye Zhao" # Update this with your name, this is the default if not overridden by a page
-description              : &description "Xinye Zhao's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ph.D. student in Computer Science and Engineering at the University of Notre Dame."
 url                      : https://Xinye-Zhao.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,16 +26,16 @@ author:
   avatar           : "profile.png"
   name             : "Xinye Zhao"
   pronouns         : # example: "she/her"  
-  bio              : "Welcome to my academic website."
-  location         :
-  employer         :
+  bio              : "Ph.D. student in Computer Science and Engineering at the University of Notre Dame, working on software engineering security, LLM systems, and AI-assisted vulnerability detection."
+  location         : "South Bend, IN"
+  employer         : "University of Notre Dame"
   uri              : # URL
-  email            :
+  email            : "xzhao24@nd.edu"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    :
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            :
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "xinye-zhao"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

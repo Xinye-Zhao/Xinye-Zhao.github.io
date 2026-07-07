@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Raman Spectra Signal Automatic Detection"
+excerpt: "Developed a modified SSD-based method for Raman spectra signal denoising and detection."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Project using Single-Shot Detection and deep learning from November 2022 to June 2023.
+
+- Developed a method to denoise and detect two Raman spectra signals using a modified SSD model.
+- Used a double-headed network to reduce noise and improve signal detection accuracy.
+- Integrated a non-local block into the model and achieved 0.85 AUPRC for peak detection.
