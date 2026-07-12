@@ -2,6 +2,7 @@
 title: "Selected Projects"
 excerpt: "Representative technical projects spanning machine learning systems and software development."
 collection: portfolio
+published: false
 ---
 
 This section highlights selected projects beyond my formal publications.

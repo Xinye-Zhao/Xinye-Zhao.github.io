@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Miscellaneous"
 permalink: /miscellaneous/
 author_profile: true
@@ -7,7 +7,19 @@ author_profile: true
 
 {% include base_path %}
 
+<p>Outside of research, I enjoy judo, raising my cat, Badminton, Piano, Ocarina, and calligraphy.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div style="display:flex; flex-direction:column; gap:2rem; margin-top:1.5rem;">
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:1.5rem; flex-wrap:wrap;">
+    <div style="flex:1 1 320px;">
+      <p style="margin:0;"><strong>Judo Yellow Belt.</strong> I love training judo and staying active through practice. I am a yellow belt right now and still working on to get my black belt.</p>
+    </div>
+    <img src="{{ '/images/judo.jpg' | relative_url }}" alt="Xinye practicing judo" style="width:180px; height:180px; border-radius:50%; object-fit:cover; object-position:center 58%; display:block; flex:0 0 auto;">
+  </div>
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:1.5rem; flex-wrap:wrap;">
+    <div style="flex:1 1 320px;">
+      <p style="margin:0;"><strong>My cat NANA.</strong> I also love raising my cat and spending quiet time at home.</p>
+    </div>
+    <img src="{{ '/images/cat.jpg' | relative_url }}" alt="Xinye's cat" style="width:180px; height:180px; border-radius:50%; object-fit:cover; object-position:center center; display:block; flex:0 0 auto;">
+  </div>
+</div>
