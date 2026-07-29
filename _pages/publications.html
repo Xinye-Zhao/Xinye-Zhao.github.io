@@ -5,6 +5,230 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.compact-publications .list__item {
+  margin-bottom: 0.8rem;
+}
+
+.compact-publications .archive__item-title {
+  margin-top: 0.35rem;
+  margin-bottom: 0.15rem;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.compact-publications .archive__item p,
+.compact-publications .archive__item-excerpt {
+  margin: 0.2rem 0;
+  font-size: 0.88rem;
+  line-height: 1.3;
+}
+
+.compact-publications .archive__item-excerpt {
+  margin-top: 0.1rem;
+}
+
+.compact-publications .publication-meta-line {
+  margin: 0.18rem 0 0.2rem;
+}
+
+.compact-publications .publication-status-badge {
+  display: inline-block;
+  padding: 0.18rem 0.55rem;
+  margin-right: 0.35rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+}
+
+.compact-publications .publication-status-badge--published {
+  background: #f8f4ec;
+  border: 1px solid #ae9142;
+  color: #6b5418;
+}
+
+.compact-publications .publication-status-badge--accepted {
+  background: #edf5ef;
+  border: 1px solid #0c7c59;
+  color: #14532d;
+}
+
+.compact-publications .publication-status-badge--preprint {
+  background: #ece8e1;
+  border: 1px solid #9a8f80;
+  color: #4b5563;
+}
+
+.compact-publications h2 {
+  margin: 0.45rem 0 0.15rem;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.compact-publications hr {
+  margin: 0.15rem 0 0.45rem;
+}
+
+.compact-publications .list__item:first-of-type {
+  margin-top: 0.1rem;
+}
+
+.compact-publications .publication-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.compact-publications .publication-entry__content {
+  flex: 1 1 500px;
+  min-width: 260px;
+}
+
+.compact-publications .publication-entry__teaser {
+  flex: 0 0 150px;
+  margin-left: auto;
+}
+
+.compact-publications .publication-entry__teaser-image {
+  width: 150px;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  display: block;
+}
+
+.compact-publications .publication-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.32rem;
+}
+
+.compact-publications .publication-action-link,
+.compact-publications .publication-action-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid #ddd6c8;
+  background: #fffdfa;
+  color: inherit;
+  font-size: 0.82rem;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.compact-publications .publication-action-button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.compact-publications .publication-action-sep {
+  color: #a3a3a3;
+}
+
+.publication-bibtex-modal[hidden] {
+  display: none !important;
+}
+
+.publication-bibtex-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.publication-bibtex-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.38);
+}
+
+.publication-bibtex-modal__dialog {
+  position: relative;
+  width: min(760px, 92vw);
+  max-height: 80vh;
+  background: #fffefb;
+  border: 1px solid #e5ded1;
+  border-radius: 16px;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.18);
+  overflow: hidden;
+}
+
+.publication-bibtex-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1rem 0.75rem;
+  border-bottom: 1px solid #eee6d8;
+}
+
+.publication-bibtex-modal__title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.publication-bibtex-modal__close {
+  border: 0;
+  background: transparent;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.publication-bibtex-modal__body {
+  padding: 1rem;
+}
+
+.publication-bibtex-modal__code {
+  margin: 0;
+  padding: 0.95rem 1rem;
+  max-height: 50vh;
+  overflow: auto;
+  background: #f8f7f4;
+  border: 1px solid #ece6dc;
+  border-radius: 12px;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.publication-bibtex-modal__footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1rem 1rem;
+}
+
+.publication-bibtex-copy {
+  border: 1px solid #d9d1c3;
+  background: #fffdfa;
+  border-radius: 999px;
+  padding: 0.38rem 0.85rem;
+  font-size: 0.84rem;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .compact-publications .publication-entry__teaser {
+    flex-basis: 120px;
+  }
+
+  .compact-publications .publication-entry__teaser-image {
+    width: 120px;
+  }
+}
+</style>
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -12,25 +236,99 @@ author_profile: true
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
+<div class="compact-publications">
+  {% if site.publication_category %}
+    {% for category in site.publication_category  %}
+      {% assign title_shown = false %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% unless title_shown %}
+          <h2>{{ category[1].title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endfor %}
+  {% else %}
     {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+</div>
 
+<div id="publication-bibtex-modal" class="publication-bibtex-modal" hidden>
+  <div class="publication-bibtex-modal__backdrop" data-bibtex-close></div>
+  <div class="publication-bibtex-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="publication-bibtex-title">
+    <div class="publication-bibtex-modal__header">
+      <h3 id="publication-bibtex-title" class="publication-bibtex-modal__title">BibTeX</h3>
+      <button type="button" class="publication-bibtex-modal__close" aria-label="Close BibTeX dialog" data-bibtex-close>&times;</button>
+    </div>
+    <div class="publication-bibtex-modal__body">
+      <pre id="publication-bibtex-content" class="publication-bibtex-modal__code"></pre>
+    </div>
+    <div class="publication-bibtex-modal__footer">
+      <button type="button" id="publication-bibtex-copy" class="publication-bibtex-copy">Copy</button>
+    </div>
+  </div>
+</div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("publication-bibtex-modal");
+  if (!modal) {
+    return;
+  }
 
+  const content = document.getElementById("publication-bibtex-content");
+  const copyButton = document.getElementById("publication-bibtex-copy");
+  let lastFocusedButton = null;
+
+  function closeBibtexModal() {
+    modal.hidden = true;
+    document.body.style.overflow = "";
+    if (lastFocusedButton) {
+      lastFocusedButton.focus();
+    }
+  }
+
+  function openBibtexModal(text, triggerButton) {
+    lastFocusedButton = triggerButton;
+    content.textContent = text;
+    copyButton.textContent = "Copy";
+    modal.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  document.querySelectorAll(".js-bibtex-button").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const targetId = button.getAttribute("data-bibtex-target");
+      const source = targetId ? document.getElementById(targetId) : null;
+      if (!source) {
+        return;
+      }
+      openBibtexModal(source.textContent.trim(), button);
+    });
+  });
+
+  modal.querySelectorAll("[data-bibtex-close]").forEach(function (closeEl) {
+    closeEl.addEventListener("click", closeBibtexModal);
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && !modal.hidden) {
+      closeBibtexModal();
+    }
+  });
+
+  copyButton.addEventListener("click", async function () {
+    try {
+      await navigator.clipboard.writeText(content.textContent);
+      copyButton.textContent = "Copied";
+    } catch (error) {
+      copyButton.textContent = "Copy failed";
+    }
+  });
+});
+</script>

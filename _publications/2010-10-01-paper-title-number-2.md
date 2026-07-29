@@ -7,5 +7,12 @@ excerpt: 'Disentangled learning for integration and prediction across multi-batc
 date: 2024-01-01
 venue: 'Nature Communications'
 citation: 'Ziqi Zhang, Xinye Zhao. (2024). &quot;scDisInFact: Disentangled Learning for the Integration and Prediction of Multi-Batch, Multi-Condition Single-Cell RNA-Sequencing Data.&quot; <i>Nature Communications</i>.'
+bibtex: |
+  @article{zhang2024scdisinfact,
+    title={scDisInFact: Disentangled Learning for the Integration and Prediction of Multi-Batch, Multi-Condition Single-Cell RNA-Sequencing Data},
+    author={Zhang, Ziqi and Zhao, Xinye},
+    journal={Nature Communications},
+    year={2024}
+  }
 ---
 This paper studies disentangled representation learning for integrating and predicting single-cell RNA-sequencing data across multiple batches and conditions.
