@@ -45,6 +45,9 @@
 
     {% if post.collection == 'publications' and pub_teaser %}
     <div class="publication-entry">
+      <div class="publication-entry__teaser">
+        <img src="{% if pub_teaser contains '://' %}{{ pub_teaser }}{% else %}{{ pub_teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ post.title }} figure" class="publication-entry__teaser-image">
+      </div>
       <div class="publication-entry__content">
     {% endif %}
 
@@ -119,9 +122,6 @@
     {% endif %}
 
     {% if post.collection == 'publications' and pub_teaser %}
-      </div>
-      <div class="publication-entry__teaser">
-        <img src="{% if pub_teaser contains '://' %}{{ pub_teaser }}{% else %}{{ pub_teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ post.title }} figure" class="publication-entry__teaser-image">
       </div>
     </div>
     {% endif %}
