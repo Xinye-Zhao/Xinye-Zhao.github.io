@@ -7,13 +7,111 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+.homepage-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.homepage-contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.48rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid #ddd6c8;
+  background: #fffdfa;
+  color: #2f2a24 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+button.homepage-contact-button {
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.homepage-contact-button:hover {
+  transform: translateY(-1px);
+  border-color: #cbbba0;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+}
+
+.homepage-contact-button--email {
+  background: #f8f4ec;
+  border-color: #d9c7a4;
+}
+
+.homepage-contact-button--linkedin {
+  background: #eef5fb;
+  border-color: #b8d0e5;
+}
+
+.homepage-contact-button.is-copied {
+  background: #edf5ef;
+  border-color: #0c7c59;
+  color: #14532d !important;
+}
+</style>
+
 I am a Ph.D. student in Computer Science and Engineering at the University of Notre Dame. My current work focuses on AI4SE (AI for Software Engineering) and software engineering security.
 
-My recent research focuses on multi-agent systems for software vulnerability analysis, with a particular emphasis on medical device security, as well as security-oriented reasoning techniques for large language models. My previous work spans systems for machine learning, including LLM KV cache optimization; AI for Science, including computational biology research on single-cell learning systems; and IoT network traffic analysis.
+My recent research centers on AI for software engineering security, especially agentic and reasoning-based methods that help developers analyze, validate, and improve the security of software systems. I am particularly interested in how multi-agent architectures and LLM-based reasoning can support security-critical engineering workflows such as secure code analysis, vulnerability assessment, and assurance for real-world domains including medical device software. My previous work spans systems for machine learning, including LLM KV cache optimization; AI for Science, including computational biology research on single-cell learning systems; and IoT network traffic analysis.
 
 Before joining Notre Dame, I completed an M.S. in Electrical and Computer Engineering at Georgia Tech and a B.E. in Electrical Engineering at Dalian Maritime University.
 
-You can reach me at [xzhao24@nd.edu](mailto:xzhao24@nd.edu) or connect with me on [LinkedIn](https://linkedin.com/in/xinye-zhao).
+<div class="homepage-contact-row">
+  <button type="button" class="homepage-contact-button homepage-contact-button--email js-copy-email" data-email="xzhao24@nd.edu" aria-label="Copy email address">
+    <i class="fas fa-envelope" aria-hidden="true"></i>
+    <span class="js-copy-email-label">xzhao24@nd.edu</span>
+  </button>
+  <a class="homepage-contact-button homepage-contact-button--linkedin" href="https://linkedin.com/in/xinye-zhao" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin" aria-hidden="true"></i>
+    <span>LinkedIn</span>
+  </a>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var copyButton = document.querySelector('.js-copy-email');
+  if (!copyButton) return;
+
+  var defaultLabel = copyButton.querySelector('.js-copy-email-label');
+  var defaultText = defaultLabel ? defaultLabel.textContent : 'xzhao24@nd.edu';
+  var email = copyButton.getAttribute('data-email');
+
+  copyButton.addEventListener('click', function () {
+    if (!email) return;
+
+    var setCopiedState = function () {
+      copyButton.classList.add('is-copied');
+      if (defaultLabel) defaultLabel.textContent = 'Copied!';
+      window.setTimeout(function () {
+        copyButton.classList.remove('is-copied');
+        if (defaultLabel) defaultLabel.textContent = defaultText;
+      }, 1800);
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(email).then(setCopiedState);
+      return;
+    }
+
+    var tempInput = document.createElement('input');
+    tempInput.value = email;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+    setCopiedState();
+  });
+});
+</script>
 
 ## Research Interests
 
