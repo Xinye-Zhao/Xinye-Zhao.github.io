@@ -11,8 +11,18 @@ redirect_from:
 .homepage-contact-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.75rem;
   margin: 1rem 0 1.25rem;
+}
+
+.homepage-contact-label {
+  font-size: 0.98rem;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #6b7280;
+  margin-right: 0.15rem;
 }
 
 .homepage-contact-button {
@@ -25,6 +35,7 @@ redirect_from:
   background: #fffdfa;
   color: #2f2a24 !important;
   text-decoration: none !important;
+  font-size: 0.96rem;
   font-weight: 600;
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
@@ -32,7 +43,6 @@ redirect_from:
 
 button.homepage-contact-button {
   font-family: inherit;
-  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -57,15 +67,30 @@ button.homepage-contact-button {
   border-color: #0c7c59;
   color: #14532d !important;
 }
+
+.homepage-last-updated {
+  display: inline-block;
+  margin-top: -0.35rem;
+  margin-bottom: 1.15rem;
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 0.82rem;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
 </style>
 
-I am a Ph.D. student in Computer Science and Engineering at the University of Notre Dame. My current work focuses on AI4SE (AI for Software Engineering) and software engineering security.
+I am a Ph.D. student in Computer Science and Engineering at the University of Notre Dame, advised by Prof. Joanna C. S. Santos. My current work focuses on AI4SE (AI for Software Engineering) and software engineering security.
 
 My recent research centers on AI for software engineering security, especially agentic and reasoning-based methods that help developers analyze, validate, and improve the security of software systems. I am particularly interested in how multi-agent architectures and LLM-based reasoning can support security-critical engineering workflows such as secure code analysis, vulnerability assessment, and assurance for real-world domains including medical device software. My previous work spans systems for machine learning, including LLM KV cache optimization; AI for Science, including computational biology research on single-cell learning systems; and IoT network traffic analysis.
 
 Before joining Notre Dame, I completed an M.S. in Electrical and Computer Engineering at Georgia Tech and a B.E. in Electrical Engineering at Dalian Maritime University.
 
 <div class="homepage-contact-row">
+  <span class="homepage-contact-label">Contact Me:</span>
   <button type="button" class="homepage-contact-button homepage-contact-button--email js-copy-email" data-email="xzhao24@nd.edu" aria-label="Copy email address">
     <i class="fas fa-envelope" aria-hidden="true"></i>
     <span class="js-copy-email-label">xzhao24@nd.edu</span>
@@ -74,6 +99,10 @@ Before joining Notre Dame, I completed an M.S. in Electrical and Computer Engine
     <i class="fab fa-linkedin" aria-hidden="true"></i>
     <span>LinkedIn</span>
   </a>
+</div>
+
+<div class="homepage-last-updated">
+  Last updated: {{ site.time | date: "%B %Y" }}
 </div>
 
 <script>
