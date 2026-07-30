@@ -4,6 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/ai-teammates-agentic-prs
 excerpt: 'An empirical study of security-related agentic pull requests on GitHub.'
+header:
+  teaser: security_age.png
 date: 2026-01-01
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2601.00477'

@@ -4,6 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/semsharekv
 excerpt: 'Efficient KVCache sharing for semantically similar prompts via token-level LSH matching.'
+header:
+  teaser: semsharekv-teaser.png
 date: 2025-09-29
 venue: 'IJCNLP 2025'
 paperurl: 'https://arxiv.org/abs/2509.24832'
