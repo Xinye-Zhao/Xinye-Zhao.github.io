@@ -81,6 +81,25 @@ button.homepage-contact-button {
   font-style: italic;
   letter-spacing: 0.01em;
 }
+
+.homepage-news-badge {
+  display: inline-block;
+  margin-right: 0.38rem;
+  padding: 0.08rem 0.5rem;
+  border-radius: 999px;
+  background: #f7ecef;
+  border: 1px solid #8b2332;
+  color: #7a1f2b;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  vertical-align: baseline;
+}
+
+.homepage-news-title {
+  color: #0c2340;
+  font-weight: 700;
+}
 </style>
 
 I am a Ph.D. student in Computer Science and Engineering at the University of Notre Dame, advised by Prof. Joanna C.S. Santos. My current work focuses on AI4SE (AI for Software Engineering) and software engineering security.
@@ -151,8 +170,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## Recent Highlights
 
-- **[News] July 2026: “TriVul: Improving Precision of Static Vulnerability Detection through Multi-Agent Reasoning” accepted to the Static Analysis Symposium (SAS 2026).**
+- <span class="homepage-news-badge">News</span> August 2026: <span class="homepage-news-title">“Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis”</span> accepted to EXPRESS 2026.
+- <span class="homepage-news-badge">News</span> July 2026: <span class="homepage-news-title">“TriVul: Improving Precision of Static Vulnerability Detection through Multi-Agent Reasoning”</span> accepted to the Static Analysis Symposium (SAS 2026).
 - Accepted paper: *SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Fuzzy Token Matching* (IJCNLP 2025)
 - Graduate Research Assistant, University of Notre Dame
 - Program committee member for ICDM 2025 Demo Track and reviewer for HPDC 2025
 - Served as a software mentor at StarkHacks on the Purdue University campus
+
+<!-- Template for future news items:
+- <span class="homepage-news-badge">News</span> Month Year: <span class="homepage-news-title">“Paper or event title”</span> short update text.
+-->
