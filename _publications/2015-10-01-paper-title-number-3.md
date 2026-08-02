@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/semsharekv
 excerpt: 'Efficient KVCache sharing for semantically similar prompts via token-level LSH matching.'
+authors: "Xinye Zhao, Spyridon Mastorakis"
 header:
   teaser: semsharekv-teaser.png
 date: 2025-09-29

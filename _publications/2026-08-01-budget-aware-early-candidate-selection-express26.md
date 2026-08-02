@@ -4,6 +4,7 @@ collection: publications
 category: workshops
 permalink: /publication/budget-aware-early-candidate-selection-express26
 excerpt: "A budget-aware approach for early candidate selection in vulnerability analysis workflows."
+authors: "Xinye Zhao, Joanna C. S. Santos"
 date: 2026-08-01
 status: "Accepted to"
 venue: "EXPRESS 2026"

@@ -14,6 +14,12 @@
 {% assign publication_popup_id = post.url | slugify %}
 {% assign publication_status_label = "PUBLISHED IN" %}
 {% assign publication_status_class = "publication-status-badge--published" %}
+{% assign publication_authors = post.authors %}
+{% if publication_authors %}
+  {% assign publication_authors = publication_authors
+    | replace: 'Xinye Zhao', '<span class="publication-self-author">Xinye Zhao</span>'
+    | replace: 'X. Zhao', '<span class="publication-self-author">X. Zhao</span>' %}
+{% endif %}
 {% if post.collection == 'publications' %}
   {% if post.status %}
     {% assign publication_status_label = post.status | upcase %}
@@ -58,6 +64,10 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+
+    {% if post.collection == 'publications' and publication_authors %}
+      <p class="publication-authors-line">{{ publication_authors }}</p>
+    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>

@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/ai-teammates-agentic-prs
 excerpt: 'An empirical study of security-related agentic pull requests on GitHub.'
+authors: "Mohammed Latif Siddiq, Xinye Zhao, Vinicius Carvalho Lopes, Beatrice Casey, Joanna C. S. Santos"
 header:
   teaser: security_age.png
 date: 2026-01-01
