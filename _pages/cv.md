@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-published: false
+published: true
 author_profile: true
 redirect_from:
   - /resume
@@ -10,79 +10,65 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D. in Computer Science and Engineering, University of Notre Dame, Expected May 2029
-* M.S. in Electrical and Computer Engineering, Georgia Institute of Technology, August 2021 - July 2024, GPA: 4.0
-* B.E. in Electrical Engineering, Dalian Maritime University, September 2016 - July 2020, GPA: 3.95
+<style>
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.3rem 0 1.1rem;
+}
 
-Work experience
-======
-* September 2025 - Present: Graduate Research Assistant, Computer Science and Engineering
-  * University of Notre Dame, South Bend, IN
-  * Designed a KV-cache sharing framework for semantically similar prompts to minimize recomputation.
-  * Developing a multi-agent system that simulates human hacker behavior to detect vulnerabilities in C/C++.
+.cv-action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.42rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid #d7ccb8;
+  background: #fffdfa;
+  color: #2f2a24 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
 
-* August 2024 - September 2025: Graduate Research Assistant, Computer Science and Engineering
-  * University of Notre Dame, South Bend, IN
-  * Designed a KV-cache sharing framework for semantically similar prompts to minimize recomputation.
-  * Integrated RoPE into vector embeddings to preserve positional information during fuzzy token matching.
-  * Achieved a 6.25x speedup and a 42% reduction in memory usage during LLM inference.
+.cv-action-link:hover {
+  transform: translateY(-1px);
+  border-color: #cbbba0;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+}
 
-* September 2023 - August 2024: Graduate Research Assistant, Electrical and Computer Engineering
-  * Georgia Institute of Technology, Atlanta, GA
-  * Studied smart-speaker network behavior with a focus on eavesdropping and targeted advertising.
-  * Built an automated testing setup with tablets and smart speakers to analyze behavior.
-  * Used FFT-based temporal features to analyze traffic from pcap files.
+.cv-action-link--download {
+  background: #f8f4ec;
+  border-color: #d9c7a4;
+}
 
-* June 2022 - June 2024: Graduate Research Assistant, Computer Science
-  * Georgia Institute of Technology, Atlanta, GA
-  * Contributed to scDisInFact for batch effect removal, key gene detection, and perturbation prediction.
-  * Used multiple encoders to disentangle shared and unshared biological factors.
+.cv-preview-frame {
+  width: 100%;
+  min-height: 980px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+  background: #ffffff;
+}
+</style>
 
-* June 2022 - June 2023: Graduate Research Assistant, Biomedical Engineering
-  * Georgia Institute of Technology, Atlanta, GA
-  * Developed scMODD for doublet detection in scRNA-seq data.
-  * Modeled gene expression with Negative Binomial and Zero-Inflated Negative Binomial distributions.
+You can view or download my current research CV below.
 
-* December 2020 - June 2021: Frontend Engineer, Lark Document
-  * Bytedance, Shenzhen, China
-  * Developed the Popover Toolbar for the Table component.
-  * Implemented end-to-end tests using Mocha, Puppeteer, and Chai.
-  * Designed UI styles and buttons with Styled-Components.
-  
-Skills
-======
-* Programming Languages: Python, JavaScript, Assembly, C++
-* Libraries and Tools: PyTorch, Wireshark, IDA Pro, React, Pandas, OpenCV, Docker
-* ML Architectures: LLM, SSD, Transformers
+<div class="cv-actions">
+  <a class="cv-action-link cv-action-link--download" href="{{ base_path }}/files/main_research.pdf" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+    <span>Open PDF</span>
+  </a>
+  <a class="cv-action-link" href="{{ base_path }}/files/main_research.pdf" download>
+    <i class="fas fa-download" aria-hidden="true"></i>
+    <span>Download CV</span>
+  </a>
+</div>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Honors & Awards
-======
-* National Scholarship (B.S.), awarded three consecutive years
-* Top Graduate (Rank 1/120), Dalian Maritime University
-* Outstanding Undergraduate Thesis Award
-* Striving for Excellence in College and University Teaching, Certificate of Completion
-
-Academic Service
-======
-* ICDM 2025 Demo Track, Program Committee Member
-* HPDC 2025, Reviewer
-
-Leadership & Service
-======
-* Software Mentor, StarkHacks, Purdue University campus
-* VP of Membership, Techmasters, Georgia Tech Toastmasters
-* Volunteer, Georgia Aquarium
+<iframe
+  class="cv-preview-frame"
+  src="{{ base_path }}/files/main_research.pdf"
+  title="Xinye Zhao research CV"
+></iframe>

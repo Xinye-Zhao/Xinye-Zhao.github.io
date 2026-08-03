@@ -22,8 +22,6 @@ author_profile: true
 }
 </style>
 
-This section collects awards, academic service, and leadership activities that do not fit neatly under publications or teaching.
-
 ## Academic Service
 
 - Program Committee Member, ICDM 2025 Demo Track.
