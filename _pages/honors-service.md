@@ -26,6 +26,7 @@ author_profile: true
 
 - Program Committee Member, ICDM 2025 Demo Track.
 - Reviewer, HPDC 2025.
+- Student Volunteer, SPLASH/ISSTA 2026.
 - Software Mentor, StarkHacks hackathon, Purdue University campus.
 
 ## Honors

@@ -84,24 +84,36 @@ button.homepage-contact-button {
   line-height: 1.2;
 }
 
-.homepage-interest-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
+.homepage-research-directions {
   margin: 0.2rem 0 0.9rem;
 }
 
-.homepage-interest-tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.28rem 0.72rem;
-  border-radius: 999px;
-  background: #f3f8fd;
-  border: 1px solid #b9cee7;
+.homepage-research-direction {
+  margin: 0 0 0.52rem;
+  padding: 0.48rem 0 0.48rem 0.78rem;
+  border-left: 3px solid #c99700;
+  color: #374151;
+  font-size: 0.93rem;
+  line-height: 1.48;
+}
+
+.homepage-research-direction:last-child {
+  margin-bottom: 0;
+}
+
+.homepage-research-direction strong {
   color: #0c2340;
-  font-size: 0.86rem;
-  font-weight: 600;
-  line-height: 1.2;
+}
+
+.homepage-collaboration-note {
+  margin: 0.65rem 0 0.95rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #d9c7a4;
+  border-radius: 0.45rem;
+  background: #fffdfa;
+  color: #4b4338;
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
 .homepage-timeline {
@@ -213,12 +225,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-<h2 class="homepage-section-title">Research Interests</h2>
-<div class="homepage-interest-tags">
-  <span class="homepage-interest-tag">AI4SE</span>
-  <span class="homepage-interest-tag">Software Engineering Security</span>
-  <span class="homepage-interest-tag">Systems for ML/LLMs</span>
+<h2 class="homepage-section-title">Research Directions</h2>
+<div class="homepage-research-directions">
+  <p class="homepage-research-direction"><strong>AI4SE and Agentic Development.</strong> I investigate how LLM-based agents can help developers understand code, navigate complex engineering tasks, and make software-development workflows more reliable.</p>
+  <p class="homepage-research-direction"><strong>Software Engineering Security and Program Analysis.</strong> I build methods that combine static analysis, semantic reasoning, and human-centered validation to improve the precision and practical usefulness of security analysis.</p>
+  <p class="homepage-research-direction"><strong>Systems for ML and LLMs.</strong> I am interested in the systems foundations that make intelligent models efficient and dependable in practice, from scalable inference to reusable representations.</p>
 </div>
+<p class="homepage-collaboration-note"><strong>Collaboration.</strong> I am always interested in connecting around AI for software engineering, software security, program analysis, and reliable LLM systems. If our research overlaps, please reach out through the contact options above.</p>
 
 <h2 class="homepage-section-title">Recent Highlights</h2>
 <div class="homepage-timeline">
