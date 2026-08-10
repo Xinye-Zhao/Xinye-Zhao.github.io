@@ -31,7 +31,7 @@ author_profile: true
 
 ## Honors
 
-- National Scholarship (B.S.), awarded three consecutive years.
+- National Scholarship (B.S.), awarded three consecutive years (2017-2019).
 - Top Graduate (Rank 1/120), Dalian Maritime University.
 - Outstanding Undergraduate Thesis Award.
 - Striving for Excellence in College and University Teaching, Certificate of Completion, University of Notre Dame.

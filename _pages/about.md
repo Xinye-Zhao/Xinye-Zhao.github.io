@@ -237,6 +237,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="homepage-timeline">
   <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">August 2026</span>
+    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><a class="homepage-news-title" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6799069">“STRATA: A Security Tactic-Aware Framework for LLM-Based Vulnerability Repair”</a> is now available as an SSRN preprint.</p>
+  </div>
+  <div class="homepage-timeline-item">
+    <span class="homepage-timeline-date">August 2026</span>
     <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><span class="homepage-news-title">“Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis”</span> accepted to EXPRESS 2026.</p>
   </div>
   <div class="homepage-timeline-item">

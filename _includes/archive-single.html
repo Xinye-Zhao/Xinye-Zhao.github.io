@@ -21,7 +21,10 @@
     | replace: 'X. Zhao', '<span class="publication-self-author">X. Zhao</span>' %}
 {% endif %}
 {% if post.collection == 'publications' %}
-  {% if post.status %}
+  {% if post.status == 'Preprint' %}
+    {% assign publication_status_label = "PREPRINT" %}
+    {% assign publication_status_class = "publication-status-badge--preprint" %}
+  {% elsif post.status %}
     {% assign publication_status_label = post.status | upcase %}
     {% assign publication_status_class = "publication-status-badge--accepted" %}
   {% elsif post.venue and post.venue contains 'arXiv' %}
@@ -52,7 +55,7 @@
     {% if post.collection == 'publications' and pub_teaser %}
     <div class="publication-entry">
       <div class="publication-entry__teaser">
-        <img src="{% if pub_teaser contains '://' %}{{ pub_teaser }}{% else %}{{ pub_teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ post.title }} figure" class="publication-entry__teaser-image">
+        <img src="{% if pub_teaser contains '://' %}{{ pub_teaser }}{% else %}{{ pub_teaser | prepend: '/images/' | relative_url }}{% endif %}" alt="{{ post.title }} figure" class="publication-entry__teaser-image">
       </div>
       <div class="publication-entry__content">
     {% endif %}
