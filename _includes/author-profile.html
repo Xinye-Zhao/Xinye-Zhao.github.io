@@ -10,7 +10,7 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
     {% else %}
-    	<img src="{{ '/images/' | append: author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    <img src="{{ '/images/' | append: author.avatar | relative_url }}" class="author__avatar" id="sidebar-profile-avatar" data-default-src="{{ '/images/' | append: author.avatar | relative_url }}" data-matrix-src="{{ '/images/profile-matrix.png' | relative_url }}?v=2" data-avatar-matrix="{{ '/images/profile-matrix.png' | relative_url }}?v=2" data-avatar-cyberpunk="{{ '/images/profile-cyberpunk.png' | relative_url }}?v=2" alt="{{ author.name }}" fetchpriority="high" />
     {% endif %}
   </div>
 

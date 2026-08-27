@@ -171,7 +171,7 @@ button.homepage-contact-button {
 }
 </style>
 
-I am a Ph.D. student in Computer Science and Engineering at the University of Notre Dame, advised by Prof. Joanna C.S. Santos. My current work focuses on AI4SE (AI for Software Engineering) and software engineering security.
+I am Xinye Zhao (<button class="easter-word-trigger easter-word-trigger--cyberpunk" type="button" aria-pressed="false" data-easter-mode="cyberpunk" title="Jasper">Jasper</button>), a Ph.D. student in Computer Science and Engineering at the University of Notre Dame, advised by Prof. Joanna C.S. Santos. My current work focuses on <button class="easter-word-trigger easter-word-trigger--matrix" id="matrix-toggle" type="button" aria-pressed="false" data-easter-mode="matrix" data-matrix-trigger title="AI for Software Engineering">AI4SE</button> (AI for Software Engineering) and software engineering security.
 
 My recent research centers on AI for software engineering security, especially agentic and reasoning-based methods that help developers analyze, validate, and improve the security of software systems. I am particularly interested in how multi-agent architectures and LLM-based reasoning can support security-critical engineering workflows such as secure code analysis, vulnerability assessment, and assurance for real-world domains including medical device software. My previous work spans systems for machine learning, including LLM KV cache optimization; AI for Science, including computational biology research on single-cell learning systems; and IoT network traffic analysis.
 

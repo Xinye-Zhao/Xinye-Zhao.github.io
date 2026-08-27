@@ -1,0 +1,195 @@
+.easter-word-trigger {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px dotted rgba(12, 35, 64, 0.34);
+  color: inherit;
+  cursor: pointer;
+  display: inline;
+  font: inherit;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition: border-color 160ms ease, color 160ms ease, text-shadow 160ms ease;
+}
+
+.easter-word-trigger:focus-visible {
+  outline: 1px dotted currentColor;
+  outline-offset: 3px;
+}
+
+.easter-word-trigger--matrix:hover,
+.easter-word-trigger--matrix:focus-visible,
+.easter-word-trigger--matrix[aria-pressed="true"] {
+  border-color: rgba(23, 128, 71, 0.72);
+  color: #137a42;
+  text-shadow: 0 0 10px rgba(36, 255, 117, 0.38);
+}
+
+.easter-word-trigger--cyberpunk:hover,
+.easter-word-trigger--cyberpunk:focus-visible,
+.easter-word-trigger--cyberpunk[aria-pressed="true"] {
+  border-color: rgba(255, 46, 196, 0.74);
+  color: #c2188f;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.4), 0 0 16px rgba(255, 46, 196, 0.28);
+}
+
+#easter-effect-canvas {
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transition: opacity 280ms ease;
+  width: 100vw;
+  z-index: 20;
+}
+
+#easter-effect-canvas.is-visible {
+  opacity: 0.36;
+}
+
+#easter-effect-canvas.is-cyberpunk {
+  mix-blend-mode: screen;
+  opacity: 0.45;
+}
+
+body.matrix-mode {
+  --global-bg-color: #020906;
+  --global-border-color: #1b7f45;
+  --global-code-background-color: #07150c;
+  --global-code-text-color: #a9ffd0;
+  --global-footer-bg-color: #020906;
+  --global-footer-text-color: #8cf5ae;
+  --global-link-color: #6dff9e;
+  --global-link-color-hover: #d2ffe0;
+  --global-masthead-link-color: #a7ffc7;
+  --global-text-color: #d0ffe0;
+  background: #020906;
+  color: #d0ffe0;
+}
+
+body.cyberpunk-mode {
+  --global-bg-color: #080516;
+  --global-border-color: #ff2ec4;
+  --global-code-background-color: #120922;
+  --global-code-text-color: #00e5ff;
+  --global-footer-bg-color: #080516;
+  --global-footer-text-color: #f5d247;
+  --global-link-color: #00d8ff;
+  --global-link-color-hover: #ffd43b;
+  --global-masthead-link-color: #f8d94c;
+  --global-text-color: #f7efff;
+  background:
+    linear-gradient(135deg, rgba(0, 229, 255, 0.08), transparent 28%),
+    linear-gradient(315deg, rgba(255, 46, 196, 0.13), transparent 34%),
+    #080516;
+  color: #f7efff;
+}
+
+body.matrix-mode .masthead,
+body.matrix-mode .page__footer {
+  background-color: #020906;
+  border-color: #1b7f45;
+}
+
+body.cyberpunk-mode .masthead,
+body.cyberpunk-mode .page__footer {
+  background-color: rgba(8, 5, 22, 0.96);
+  border-color: rgba(255, 46, 196, 0.48);
+  box-shadow: 0 0 24px rgba(0, 229, 255, 0.1);
+}
+
+body.matrix-mode .masthead__menu-item a,
+body.matrix-mode .author__urls a,
+body.matrix-mode .page__content a {
+  color: #77ffa8;
+}
+
+body.cyberpunk-mode .masthead__menu-item a,
+body.cyberpunk-mode .author__urls a,
+body.cyberpunk-mode .page__content a {
+  color: #00e5ff;
+}
+
+body.matrix-mode .page__content a:hover,
+body.matrix-mode .masthead__menu-item a:hover,
+body.matrix-mode .author__urls a:hover {
+  color: #e2ffea;
+}
+
+body.cyberpunk-mode .page__content a:hover,
+body.cyberpunk-mode .masthead__menu-item a:hover,
+body.cyberpunk-mode .author__urls a:hover {
+  color: #ffd43b;
+}
+
+body.matrix-mode .sidebar,
+body.matrix-mode .page,
+body.matrix-mode .archive,
+body.matrix-mode .page__content {
+  color: #d0ffe0;
+}
+
+body.cyberpunk-mode .sidebar,
+body.cyberpunk-mode .page,
+body.cyberpunk-mode .archive,
+body.cyberpunk-mode .page__content {
+  color: #f7efff;
+}
+
+body.matrix-mode .homepage-contact-inline,
+body.matrix-mode .research-direction-card,
+body.matrix-mode .homepage-news,
+body.matrix-mode .timeline-entry,
+body.matrix-mode .publication-card {
+  border-color: rgba(109, 255, 158, 0.42);
+}
+
+body.cyberpunk-mode .homepage-contact-inline,
+body.cyberpunk-mode .research-direction-card,
+body.cyberpunk-mode .homepage-news,
+body.cyberpunk-mode .timeline-entry,
+body.cyberpunk-mode .publication-card {
+  border-color: rgba(255, 46, 196, 0.42);
+}
+
+body.matrix-mode .homepage-contact-email,
+body.matrix-mode .homepage-contact-linkedin {
+  background: #06170d;
+  border-color: #51e884;
+  color: #b9ffd2;
+}
+
+body.cyberpunk-mode .homepage-contact-email,
+body.cyberpunk-mode .homepage-contact-linkedin {
+  background: #120922;
+  border-color: #00e5ff;
+  color: #f7efff;
+  box-shadow: 0 0 18px rgba(255, 46, 196, 0.18);
+}
+
+body.matrix-mode #sidebar-profile-avatar {
+  box-shadow: 0 0 0 2px #50f58a, 0 0 28px rgba(69, 255, 130, 0.55);
+  filter: contrast(1.08) saturate(1.18);
+  transition: box-shadow 220ms ease, filter 220ms ease;
+}
+
+body.cyberpunk-mode #sidebar-profile-avatar {
+  box-shadow: 0 0 0 2px #00e5ff, 0 0 30px rgba(255, 46, 196, 0.58);
+  filter: contrast(1.12) saturate(1.28);
+  transition: box-shadow 220ms ease, filter 220ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #easter-effect-canvas {
+    display: none;
+  }
+
+  .easter-word-trigger,
+  #sidebar-profile-avatar {
+    transition: none;
+  }
+}

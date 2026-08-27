@@ -92,12 +92,23 @@
     
     {% if post.collection == 'publications' %}
       {% assign has_extra_links = false %}
+      {% assign show_paper_link = true %}
+      {% if post.show_paper == false %}
+        {% assign show_paper_link = false %}
+      {% endif %}
+      {% if post.paperurl and show_paper_link %}
+        {% assign has_extra_links = true %}
+      {% endif %}
       {% if post.preprinturl or post.projecturl or post.codeurl or post.posterurl or post.videourl or post.bibtex %}
         {% assign has_extra_links = true %}
       {% endif %}
       {% if has_extra_links %}
         <p class="publication-action-row">
           {% assign needs_sep = false %}
+          {% if post.paperurl and show_paper_link %}
+            <a href="{{ post.paperurl | relative_url }}" class="publication-action-link">Paper</a>
+            {% assign needs_sep = true %}
+          {% endif %}
           {% if post.preprinturl %}
             <a href="{{ post.preprinturl }}" class="publication-action-link">Preprint</a>
             {% assign needs_sep = true %}

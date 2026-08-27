@@ -42,11 +42,24 @@ Typical fields to edit:
 - `venue`
 - `excerpt`
 - `paperurl`
+- `show_paper`
 - `status` such as `Accepted to`
 - `header.teaser` for a small paper figure shown on the website
 - `bibtex` for the BibTeX popup button
 
 If the paper has a PDF, put it in `files/` and link it from the publication file. If it has a teaser/schematic figure, put that image in `images/` and reference it in `header.teaser`.
+
+To temporarily hide a PDF link without deleting the path, keep `paperurl` and add:
+
+```yaml
+show_paper: false
+```
+
+To show the PDF again later, either remove that line or change it to:
+
+```yaml
+show_paper: true
+```
 
 ### 2. Add miscellaneous content
 
@@ -74,6 +87,8 @@ For example, this is where you would change:
 - preprint/project/code links
 - BibTeX
 - teaser image
+
+If a paper already has `paperurl` but you do not want to show the PDF yet, set `show_paper: false` in that paper's front matter. This hides the `Paper` / `Download Paper` link while preserving the file path for later.
 
 ## Other useful edits
 
