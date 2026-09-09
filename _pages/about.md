@@ -236,6 +236,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <h2 class="homepage-section-title">Recent Highlights</h2>
 <div class="homepage-timeline">
   <div class="homepage-timeline-item">
+    <span class="homepage-timeline-date">September 2026</span>
+    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><a class="homepage-news-title" href="{{ '/publication/ai-teammates-agentic-prs' | relative_url }}">“Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub”</a> accepted to Information and Software Technology (IST).</p>
+  </div>
+  <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">August 2026</span>
     <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><a class="homepage-news-title" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6799069">“STRATA: A Security Tactic-Aware Framework for LLM-Based Vulnerability Repair”</a> is now available as an SSRN preprint.</p>
   </div>
