@@ -31,6 +31,7 @@ author_profile: true
 
 ## Honors
 
+- Notebaert Professional Development Fund, University of Notre Dame (2026).
 - National Scholarship (B.S.), awarded three consecutive years (2017-2019).
 - Top Graduate (Rank 1/120), Dalian Maritime University.
 - Outstanding Undergraduate Thesis Award.

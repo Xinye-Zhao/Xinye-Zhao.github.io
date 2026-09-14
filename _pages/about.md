@@ -237,6 +237,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="homepage-timeline">
   <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">September 2026</span>
+    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span>Received support from the <span class="homepage-news-title">Notebaert Professional Development Fund</span>.</p>
+  </div>
+  <div class="homepage-timeline-item">
+    <span class="homepage-timeline-date">September 2026</span>
     <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><a class="homepage-news-title" href="{{ '/publication/ai-teammates-agentic-prs' | relative_url }}">“Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub”</a> accepted to Information and Software Technology (IST).</p>
   </div>
   <div class="homepage-timeline-item">
