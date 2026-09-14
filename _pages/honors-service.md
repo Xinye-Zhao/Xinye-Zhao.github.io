@@ -39,5 +39,5 @@ author_profile: true
 
 ## Leadership and Outreach
 
-- VP of Membership, Techmasters, Georgia Tech Toastmasters.
-- Volunteer, Georgia Aquarium.
+- VP of Membership, Techmasters, Georgia Tech Toastmasters (2024-2026).
+- Volunteer, Georgia Aquarium (2023-2024).
