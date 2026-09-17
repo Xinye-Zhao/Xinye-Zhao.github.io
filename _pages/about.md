@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
   <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">August 2026</span>
-    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><span class="homepage-news-title">“Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis”</span> accepted to EXPRESS 2026.</p>
+    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><span class="homepage-news-title">“Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis”</span> accepted to EXPRESS 2026, co-located with SPLASH/ISSTA 2026. I will also serve as a Student Volunteer at SPLASH/ISSTA 2026.</p>
   </div>
   <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">July 2026</span>
