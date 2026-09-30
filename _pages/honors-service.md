@@ -24,6 +24,7 @@ author_profile: true
 
 ## Academic Service
 
+- Reviewer, [AIWILD: Agents in the Wild Workshop](https://agentwild-workshop.github.io/neurips2026/), NeurIPS 2026.
 - Program Committee Member, ICDM 2025 Demo Track.
 - Reviewer, HPDC 2025.
 - Student Volunteer, SPLASH/ISSTA 2026.
