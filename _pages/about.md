@@ -236,6 +236,14 @@ document.addEventListener('DOMContentLoaded', function () {
 <h2 class="homepage-section-title">Recent Highlights</h2>
 <div class="homepage-timeline">
   <div class="homepage-timeline-item">
+    <span class="homepage-timeline-date">October 2026</span>
+    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><a class="homepage-news-title" href="https://doi.org/10.1007/978-3-032-40374-2_14">“TriVul: Improving Precision of Static Vulnerability Detection through Multi-Agent Reasoning”</a> published in the proceedings of the Static Analysis Symposium (SAS 2026).</p>
+  </div>
+  <div class="homepage-timeline-item">
+    <span class="homepage-timeline-date">October 2026</span>
+    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><a class="homepage-news-title" href="https://doi.org/10.1145/3842650.3843175">“Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis”</a> published in the proceedings of EXPRESS 2026, co-located with SPLASH/ISSTA 2026. I also served as a Student Volunteer at SPLASH/ISSTA 2026.</p>
+  </div>
+  <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">September 2026</span>
     <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span>Received support from the <span class="homepage-news-title">Notebaert Professional Development Fund</span>.</p>
   </div>
@@ -246,14 +254,6 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">August 2026</span>
     <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><a class="homepage-news-title" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6799069">“STRATA: A Security Tactic-Aware Framework for LLM-Based Vulnerability Repair”</a> is now available as an SSRN preprint.</p>
-  </div>
-  <div class="homepage-timeline-item">
-    <span class="homepage-timeline-date">August 2026</span>
-    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><span class="homepage-news-title">“Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis”</span> accepted to EXPRESS 2026, co-located with SPLASH/ISSTA 2026. I will also serve as a Student Volunteer at SPLASH/ISSTA 2026.</p>
-  </div>
-  <div class="homepage-timeline-item">
-    <span class="homepage-timeline-date">July 2026</span>
-    <p class="homepage-timeline-text"><span class="homepage-news-badge">News</span><span class="homepage-news-title">“TriVul: Improving Precision of Static Vulnerability Detection through Multi-Agent Reasoning”</span> accepted to the Static Analysis Symposium (SAS 2026).</p>
   </div>
   <div class="homepage-timeline-item">
     <span class="homepage-timeline-date">2025</span>

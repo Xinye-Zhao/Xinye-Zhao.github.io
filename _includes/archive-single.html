@@ -24,6 +24,8 @@
   {% if post.status == 'Preprint' %}
     {% assign publication_status_label = "PREPRINT" %}
     {% assign publication_status_class = "publication-status-badge--preprint" %}
+  {% elsif post.status == 'Published in' %}
+    {% assign publication_status_label = "PUBLISHED IN" %}
   {% elsif post.status %}
     {% assign publication_status_label = post.status | upcase %}
     {% assign publication_status_class = "publication-status-badge--accepted" %}
