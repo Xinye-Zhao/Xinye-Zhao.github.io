@@ -9,6 +9,8 @@ header:
   teaser: scDisinfact.jpg
 date: 2024-01-01
 venue: 'Nature Communications'
+status: 'Published in'
+paperurl: 'https://doi.org/10.1038/s41467-024-45227-w'
 citation: 'Ziqi Zhang, Xinye Zhao, Mehak Bindra, Peng Qiu, Xiuwei Zhang. (2024). &quot;scDisInFact: Disentangled Learning for the Integration and Prediction of Multi-Batch, Multi-Condition Single-Cell RNA-Sequencing Data.&quot; <i>Nature Communications</i>.'
 bibtex: |
   @article{zhang2024scdisinfact,

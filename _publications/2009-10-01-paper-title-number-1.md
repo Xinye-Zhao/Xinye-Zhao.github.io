@@ -9,6 +9,8 @@ header:
   teaser: scmodd_pic.webp
 date: 2023-01-01
 venue: 'Frontiers in Systems Biology'
+status: 'Published in'
+paperurl: 'https://doi.org/10.3389/fsysb.2022.1082309'
 citation: 'Xinye Zhao, Alexander Du, Peng Qiu. (2023). &quot;scMODD: A model-driven algorithm for doublet identification in single-cell RNA-sequencing data.&quot; <i>Frontiers in Systems Biology</i>.'
 bibtex: |
   @article{zhao2023scmodd,
